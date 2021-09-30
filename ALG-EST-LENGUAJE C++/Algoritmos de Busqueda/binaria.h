@@ -1,0 +1,1 @@
+void busqueda_binaria(int a[], int n, int dato);

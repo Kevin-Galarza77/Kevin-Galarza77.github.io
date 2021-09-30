@@ -1,0 +1,68 @@
+
+
+
+
+					   COLEGIO ASCAZUBI
+				       REPORTE DE CALIFICACIONES
+
+
+			La calificacion total a buscar fue de [15]
+
+				DATOS DEL ESTUDIANTES  
+
+#    ESTUDIANTE               CORREO ELECTRONICO                 NOTA 1     NOTA 2     TOTAL       CONDUCTA
+1    PEDRO SARMIENTO          pedro@gmail.com                     12.8      17.2         15           C
+
+
+				_______________________________________
+					     Docente
+					  BYRON LOARTE
+					   12345678910
+
+
+
+
+
+
+
+					   COLEGIO ASCAZUBI
+				       REPORTE DE CALIFICACIONES
+
+
+			La calificacion total a buscar fue de [18]
+
+				DATOS DEL ESTUDIANTES  
+
+#    ESTUDIANTE               CORREO ELECTRONICO                 NOTA 1     NOTA 2     TOTAL       CONDUCTA
+3    JUAN ALVEAR              juan@gmail.com                      18.5      17.5         18           A
+
+
+				_______________________________________
+					     Docente
+					  BYRON LOARTE
+					   12345678910
+
+
+
+
+
+
+
+					   COLEGIO ASCAZUBI
+				       REPORTE DE CALIFICACIONES
+
+
+
+
+		CALIFICACION NO ENCONTRADA.
+
+
+
+
+				_______________________________________
+					     Docente
+					  BYRON LOARTE
+					   12345678910
+
+
+

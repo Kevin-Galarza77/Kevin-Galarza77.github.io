@@ -1,0 +1,34 @@
+					 COLEGIO ASCAZUBI
+					REPORTE DE CALIFICACIONES
+
+Año Lectivo: 2021-2022
+Materia:  LOGARITMOS Y ESTRUCTURAS DE DATOS
+
+#    ESTUDIANTE               CORREO ELECTRONICO                 NOTA 1     NOTA 2     TOTAL       CONDUCTA
+1    PEDRO SARMIENTO          pedro@gmail.com                     12.8      17.2         15           C
+2    MARIA SOTO               maria@gmail.com                     19.8      13.5      16.65           A
+3    JUAN ALVEAR              juan@gmail.com                      18.5      17.5         18           A
+4    CESAR CAJAS              cesar@gmail.com                       18        20         19           A
+
+
+
+RESUMEN
+
+Promedio				 17.1625
+del curso:
+
+
+TOTAL
+
+     				Aprobados (14-20)					4
+     				Suspenso  (09-13)					0
+     				Reprobado (01-08)					0
+
+
+			_______________________________________
+				     Docente
+				  BYRON LOARTE
+				   12345678910
+
+
+
