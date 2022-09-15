@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CalculadoraCientifica">
+  <grid id="27dc6" binding="mainCalculadora" layout-manager="GridLayoutManager" row-count="14" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="13" width="494" height="731"/>
+    </constraints>
+    <properties>
+      <background color="-7407617"/>
+    </properties>
+    <border type="line"/>
+    <children>
+      <grid id="4df93" binding="panel2" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+        <margin top="0" left="25" bottom="0" right="25"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="445" height="150"/>
+            <preferred-size width="445" height="150"/>
+            <maximum-size width="445" height="150"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-655873"/>
+          <enabled value="false"/>
+          <font name="Book Antiqua" size="0" style="1"/>
+        </properties>
+        <border type="line">
+          <font/>
+          <title-color color="-4473925"/>
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="2921d" class="javax.swing.JLabel" binding="pantalla">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Book Antiqua" size="48" style="1"/>
+              <foreground color="-16777216"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6b845" class="javax.swing.JLabel" binding="pantalla2">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Book Antiqua" size="48" style="1"/>
+              <foreground color="-16777216"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="42237" class="javax.swing.JButton" binding="por">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13880525"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-655873"/>
+          <text value="x"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="b541a" class="javax.swing.JButton" binding="cero">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="e0113" class="javax.swing.JButton" binding="igual">
+        <constraints>
+          <grid row="12" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="172" height="50"/>
+            <preferred-size width="172" height="50"/>
+            <maximum-size width="175" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="24" style="1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="e1101" class="javax.swing.JButton" binding="punto">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <hideActionText value="true"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="a2513" class="javax.swing.JButton" binding="uno">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="6814" class="javax.swing.JButton" binding="dos">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="95bfe" class="javax.swing.JButton" binding="seis">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="f596e" class="javax.swing.JButton" binding="cinco">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="1a294" class="javax.swing.JButton" binding="cuatro">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="39b0f" class="javax.swing.JButton" binding="ocho">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="b0398" class="javax.swing.JButton" binding="nueve">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="1b4f4" class="javax.swing.JButton" binding="del">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1090804"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="DEL"/>
+        </properties>
+      </component>
+      <component id="6a57b" class="javax.swing.JButton" binding="dividido">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13880525"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="24" style="1"/>
+          <foreground color="-655873"/>
+          <text value="÷"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="fecff" class="javax.swing.JButton" binding="mas">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13880525"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="24" style="1"/>
+          <foreground color="-655873"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="9321e" class="javax.swing.JButton" binding="menos">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13880525"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="24" style="1"/>
+          <foreground color="-655873"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="8e062" class="javax.swing.JButton" binding="ac">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1090804"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="AC"/>
+        </properties>
+      </component>
+      <component id="bf641" class="javax.swing.JButton" binding="ans">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1090804"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <text value="ANS"/>
+        </properties>
+      </component>
+      <vspacer id="d2de5">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="55f89">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="e954c">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="a7711">
+        <constraints>
+          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="97c0a">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="2" use-parent-layout="false">
+            <minimum-size width="10" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="d2d67" class="javax.swing.JButton" binding="siete">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="d232d" class="javax.swing.JButton" binding="tres">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18"/>
+          <foreground color="-655873"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="c304f" class="javax.swing.JButton" binding="raizx">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="°√x"/>
+        </properties>
+      </component>
+      <component id="f773b" class="javax.swing.JButton" binding="seno">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="sen"/>
+        </properties>
+      </component>
+      <component id="52213" class="javax.swing.JButton" binding="coseno">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="cos"/>
+        </properties>
+      </component>
+      <component id="7c2b8" class="javax.swing.JButton" binding="secante">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="sec"/>
+        </properties>
+      </component>
+      <component id="7e820" class="javax.swing.JButton" binding="cosecante">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="csc"/>
+        </properties>
+      </component>
+      <component id="916a7" class="javax.swing.JButton" binding="tangente">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="tan"/>
+        </properties>
+      </component>
+      <component id="7819a" class="javax.swing.JButton" binding="cotangente">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="cot"/>
+        </properties>
+      </component>
+      <component id="b4520" class="javax.swing.JButton" binding="senoinverso">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="16" style="0"/>
+          <text value="sen-1"/>
+        </properties>
+      </component>
+      <component id="93f66" class="javax.swing.JButton" binding="cosenoinverso">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="16" style="0"/>
+          <text value="cos-1"/>
+        </properties>
+      </component>
+      <component id="b1ca5" class="javax.swing.JButton" binding="porcentaje">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="%"/>
+        </properties>
+      </component>
+      <component id="9b4d8" class="javax.swing.JButton" binding="inversa">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="1/x"/>
+        </properties>
+      </component>
+      <component id="e3f0f" class="javax.swing.JButton" binding="tangenteinverso">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="16" style="0"/>
+          <text value="tan-1"/>
+        </properties>
+      </component>
+      <component id="157a2" class="javax.swing.JButton" binding="pi">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="π"/>
+        </properties>
+      </component>
+      <component id="145b1" class="javax.swing.JButton" binding="exp">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="EXP"/>
+        </properties>
+      </component>
+      <component id="84acc" class="javax.swing.JButton" binding="redondear">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="red"/>
+        </properties>
+      </component>
+      <component id="735a7" class="javax.swing.JButton" binding="raiz">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="√"/>
+        </properties>
+      </component>
+      <component id="94878" class="javax.swing.JButton" binding="potencia">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="X°"/>
+        </properties>
+      </component>
+      <component id="f60b6" class="javax.swing.JButton" binding="factorial">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="n!"/>
+        </properties>
+      </component>
+      <component id="969d6" class="javax.swing.JButton" binding="logaritmo">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="log"/>
+        </properties>
+      </component>
+      <component id="3711a" class="javax.swing.JButton" binding="absoluto">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="|x|"/>
+        </properties>
+      </component>
+      <component id="faaf2" class="javax.swing.JButton" binding="ln">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="ln"/>
+        </properties>
+      </component>
+      <component id="d5000" class="javax.swing.JButton" binding="e">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="e"/>
+        </properties>
+      </component>
+      <component id="a78f7" class="javax.swing.JButton" binding="masOmeno">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="75" height="50"/>
+            <preferred-size width="75" height="50"/>
+            <maximum-size width="75" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3876896"/>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="+/-"/>
+        </properties>
+      </component>
+      <vspacer id="25224">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="2" use-parent-layout="false">
+            <minimum-size width="10" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
