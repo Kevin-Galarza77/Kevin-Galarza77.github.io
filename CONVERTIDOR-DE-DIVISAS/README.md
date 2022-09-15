@@ -7,4 +7,4 @@
 
 <h6>Una vez seleccionado la divisa inicial y final, solo se debe colocar la cantidad y dat click en "Convertir" para mostrar el resultado.  </h6>
 
-<img src="./Imagenes/converison.png" >
+<img src="./Imagenes/conversion.png" >
