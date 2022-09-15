@@ -10,7 +10,6 @@ public class monedas {
     private JComboBox finalBox;
     private JLabel origenTxt;
     private JLabel destinoTxt;
-
     private JPanel mainPanel;
 
     public monedas() {
