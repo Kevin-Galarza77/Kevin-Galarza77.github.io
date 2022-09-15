@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Menu">
+  <grid id="27dc6" binding="mainMenu" layout-manager="GridLayoutManager" row-count="5" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1029" height="709"/>
+    </constraints>
+    <properties>
+      <background color="-8611412"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d2b7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Lucida Handwriting" size="80" style="1"/>
+          <foreground color="-16244686"/>
+          <icon value="Imagenes/banner.png"/>
+          <text value=""/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <hspacer id="8343c">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="1" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="e0d78">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="1" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="893c3" class="javax.swing.JButton" binding="agregarProductoButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16244686"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-655873"/>
+          <text value="Agregar Producto"/>
+        </properties>
+      </component>
+      <component id="3545b" class="javax.swing.JButton" binding="eliminarProductoButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16244686"/>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-655873"/>
+          <text value="Eliminar Producto"/>
+        </properties>
+      </component>
+      <component id="72753" class="javax.swing.JButton" binding="actualizarProductoButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16244686"/>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-655873"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Actualizar Producto"/>
+        </properties>
+      </component>
+      <component id="8da2c" class="javax.swing.JButton" binding="buscarProductoButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16244686"/>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-655873"/>
+          <hideActionText value="true"/>
+          <text value="Buscar Producto"/>
+        </properties>
+      </component>
+      <hspacer id="917fc">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="1" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="765c2">
+        <constraints>
+          <grid row="3" column="3" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="0" height="250"/>
+            <preferred-size width="0" height="250"/>
+            <maximum-size width="0" height="250"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="be503" class="javax.swing.JLabel" binding="Nombre_Usuario">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="20" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
