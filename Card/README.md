@@ -1,3 +1,3 @@
 # Diseno_Interfaces
 
-https://cardclase9.netlify.app/
+https://card-faticon.netlify.app/
