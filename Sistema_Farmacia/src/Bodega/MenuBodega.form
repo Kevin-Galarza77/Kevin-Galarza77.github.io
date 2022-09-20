@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Bodega.MenuBodega">
+  <grid id="27dc6" binding="BodegaJF" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="912" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="fa7ef" class="javax.swing.JButton" binding="modificarProductosButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="40"/>
+            <preferred-size width="200" height="40"/>
+            <maximum-size width="200" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12829636"/>
+          <font name="Berlin Sans FB" size="18" style="0"/>
+          <foreground color="-1"/>
+          <text value="Modificar Productos"/>
+        </properties>
+      </component>
+      <component id="e9de5" class="javax.swing.JButton" binding="eliminarProductosButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="40"/>
+            <preferred-size width="200" height="40"/>
+            <maximum-size width="200" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12829636"/>
+          <font name="Berlin Sans FB" size="18" style="0"/>
+          <foreground color="-1"/>
+          <text value="Eliminar Productos"/>
+        </properties>
+      </component>
+      <scrollpane id="45c">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9d673" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="97f40" class="javax.swing.JButton" binding="ingresarProductosButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="40"/>
+            <preferred-size width="200" height="40"/>
+            <maximum-size width="200" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12829636"/>
+          <font name="Berlin Sans FB" size="18" style="0"/>
+          <foreground color="-1"/>
+          <text value="Ingresar Productos"/>
+        </properties>
+      </component>
+      <component id="8fe3c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Brush Script MT" size="48" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="BODEGA"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <hspacer id="7d217">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="ec3c5" class="javax.swing.JButton" binding="regresarBTN">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="250" height="40"/>
+            <preferred-size width="250" height="40"/>
+            <maximum-size width="250" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12829636"/>
+          <enabled value="false"/>
+          <font name="Berlin Sans FB" size="18" style="0"/>
+          <foreground color="-1"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Regresar"/>
+        </properties>
+      </component>
+      <component id="f4863" class="javax.swing.JButton" binding="salirBTN">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="250" height="40"/>
+            <preferred-size width="250" height="40"/>
+            <maximum-size width="250" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6750208"/>
+          <font name="Berlin Sans FB" size="18" style="0"/>
+          <foreground color="-1"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Cerrar Sesión"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

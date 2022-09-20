@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Login.index">
+  <grid id="27dc6" binding="login" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1019" height="606"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="817a0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3157297"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="60a9e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Imagenes/avatar.png"/>
+              <text value=" "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="772bb" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d832" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Brush Script MT" size="48" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="BIENVENIDO"/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+          </component>
+          <component id="2a828" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bahnschrift" size="20" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Número de Cedula"/>
+            </properties>
+          </component>
+          <component id="a4468" class="javax.swing.JTextField" binding="cedulaTXT">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="40"/>
+                <preferred-size width="150" height="40"/>
+                <maximum-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3157297"/>
+              <font name="Berlin Sans FB" size="16" style="2"/>
+              <foreground color="-11838105"/>
+              <horizontalAlignment value="2"/>
+            </properties>
+          </component>
+          <component id="c13fe" class="javax.swing.JPasswordField" binding="contraseñaTXT">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="40"/>
+                <preferred-size width="150" height="40"/>
+                <maximum-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3157297"/>
+              <font name="Berlin Sans FB" size="16" style="2"/>
+              <foreground color="-11838105"/>
+              <horizontalAlignment value="2"/>
+            </properties>
+          </component>
+          <component id="806a4" class="javax.swing.JButton" binding="iniciarSesiónButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="225" height="40"/>
+                <preferred-size width="225" height="40"/>
+                <maximum-size width="225" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12829636"/>
+              <font name="Berlin Sans FB" size="18" style="0"/>
+              <foreground color="-1"/>
+              <text value="Iniciar Sesión"/>
+            </properties>
+          </component>
+          <component id="4af9a" class="javax.swing.JButton" binding="salirBNT">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="225" height="40"/>
+                <preferred-size width="225" height="40"/>
+                <maximum-size width="225" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12829636"/>
+              <font name="Berlin Sans FB" size="18" style="0"/>
+              <foreground color="-1"/>
+              <text value="Salir"/>
+            </properties>
+          </component>
+          <component id="5d143" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bahnschrift" size="20" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Contraseña"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

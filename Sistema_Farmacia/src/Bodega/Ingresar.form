@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Bodega.Ingresar">
+  <grid id="27dc6" binding="MainIngresar" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="100" left="300" bottom="100" right="300"/>
+    <constraints>
+      <xy x="20" y="20" width="1356" height="604"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d3514" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="ID Producto"/>
+        </properties>
+      </component>
+      <component id="6b5e2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Nombre"/>
+        </properties>
+      </component>
+      <component id="3a610" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Precio"/>
+        </properties>
+      </component>
+      <component id="f86ea" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Stock"/>
+        </properties>
+      </component>
+      <component id="4057e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Descripción"/>
+        </properties>
+      </component>
+      <component id="cda81" class="javax.swing.JButton" binding="agregarButton">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="40"/>
+            <preferred-size width="150" height="40"/>
+            <maximum-size width="150" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12829636"/>
+          <font name="Berlin Sans FB" size="18" style="0"/>
+          <foreground color="-1"/>
+          <text value="Agregar"/>
+        </properties>
+      </component>
+      <hspacer id="33b86">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="4c25f" class="javax.swing.JTextField" binding="IdTXT">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="40"/>
+            <preferred-size width="150" height="40"/>
+            <maximum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3157297"/>
+          <font name="Berlin Sans FB" size="16" style="2"/>
+          <foreground color="-11838105"/>
+          <horizontalAlignment value="2"/>
+        </properties>
+      </component>
+      <component id="53b2" class="javax.swing.JTextField" binding="NombreTXT">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="40"/>
+            <preferred-size width="150" height="40"/>
+            <maximum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3157297"/>
+          <font name="Berlin Sans FB" size="16" style="2"/>
+          <foreground color="-11838105"/>
+          <horizontalAlignment value="2"/>
+        </properties>
+      </component>
+      <component id="16c11" class="javax.swing.JTextField" binding="PrecioTXT">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="40"/>
+            <preferred-size width="150" height="40"/>
+            <maximum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3157297"/>
+          <font name="Berlin Sans FB" size="16" style="2"/>
+          <foreground color="-11838105"/>
+          <horizontalAlignment value="2"/>
+        </properties>
+      </component>
+      <component id="8f7e3" class="javax.swing.JTextField" binding="StockTXT">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="40"/>
+            <preferred-size width="150" height="40"/>
+            <maximum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3157297"/>
+          <font name="Berlin Sans FB" size="16" style="2"/>
+          <foreground color="-11838105"/>
+          <horizontalAlignment value="2"/>
+        </properties>
+      </component>
+      <component id="f115c" class="javax.swing.JTextField" binding="DescripcionTXT">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="40"/>
+            <preferred-size width="150" height="40"/>
+            <maximum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3157297"/>
+          <font name="Berlin Sans FB" size="16" style="2"/>
+          <foreground color="-11838105"/>
+          <horizontalAlignment value="2"/>
+        </properties>
+      </component>
+      <component id="9b0ec" class="javax.swing.JButton" binding="regresarButton">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="40"/>
+            <preferred-size width="150" height="40"/>
+            <maximum-size width="150" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12829636"/>
+          <font name="Berlin Sans FB" size="18" style="0"/>
+          <foreground color="-1"/>
+          <text value="Regresar"/>
+        </properties>
+      </component>
+      <component id="71f56" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Brush Script MT" size="48" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="AGREGAR PRODUCTO"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <hspacer id="7dd90">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="20"/>
+            <preferred-size width="50" height="20"/>
+            <maximum-size width="50" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>

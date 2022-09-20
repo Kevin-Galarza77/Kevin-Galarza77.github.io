@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Cajero.GenerarFactura">
+  <grid id="27dc6" binding="mainFacturacion" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="605" height="618"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e32ea" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="22015" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Brush Script MT" size="48" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="FACTURACIÓN"/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2efff" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="50" bottom="0" right="50"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f4cda" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Número de Cédula del Cliente"/>
+            </properties>
+          </component>
+          <component id="49d34" class="javax.swing.JTextField" binding="cedcliTXT">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="40"/>
+                <preferred-size width="150" height="40"/>
+                <maximum-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3157297"/>
+              <font name="Berlin Sans FB" size="16" style="2"/>
+              <foreground color="-11838105"/>
+              <horizontalAlignment value="2"/>
+            </properties>
+          </component>
+          <component id="2c8db" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Nombre del Cliente"/>
+            </properties>
+          </component>
+          <component id="382a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Número de Cédula del Empleado"/>
+            </properties>
+          </component>
+          <component id="9562d" class="javax.swing.JTextField" binding="nombreClieTXT">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="40"/>
+                <preferred-size width="150" height="40"/>
+                <maximum-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3157297"/>
+              <font name="Berlin Sans FB" size="16" style="2"/>
+              <foreground color="-11838105"/>
+              <horizontalAlignment value="2"/>
+            </properties>
+          </component>
+          <component id="1c908" class="javax.swing.JTextField" binding="empleadoTXT">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="40"/>
+                <preferred-size width="150" height="40"/>
+                <maximum-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3157297"/>
+              <font name="Berlin Sans FB" size="16" style="2"/>
+              <foreground color="-11838105"/>
+              <horizontalAlignment value="2"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="63063" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1646f" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="40"/>
+                <preferred-size width="-1" height="40"/>
+                <maximum-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3157297"/>
+              <editable value="false"/>
+              <font name="Berlin Sans FB" size="16" style="2"/>
+              <model/>
+            </properties>
+          </component>
+          <grid id="9dc78" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="82ad4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Berlin Sans FB" size="16" style="0"/>
+                  <foreground color="-16777216"/>
+                  <text value="Cantidad"/>
+                </properties>
+              </component>
+              <component id="8a019" class="javax.swing.JTextField" binding="cantidadTXT">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="100" height="30"/>
+                    <preferred-size width="100" height="30"/>
+                    <maximum-size width="100" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-3157297"/>
+                  <font name="Berlin Sans FB" size="16" style="0"/>
+                  <foreground color="-11838105"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="1"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="5c678" class="javax.swing.JButton" binding="agregarButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="150" height="40"/>
+                <preferred-size width="150" height="40"/>
+                <maximum-size width="150" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12829636"/>
+              <font name="Berlin Sans FB" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Agregar"/>
+            </properties>
+          </component>
+          <component id="883ce" class="javax.swing.JButton" binding="eliminarBtn">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="150" height="40"/>
+                <preferred-size width="150" height="40"/>
+                <maximum-size width="150" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12829636"/>
+              <font name="Berlin Sans FB" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Eliminar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6d29b" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="deddd">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ff9b5" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <font name="JetBrains Mono" size="14" style="2"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="4e0b1" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="0" bottom="30" right="0"/>
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="31f96" class="javax.swing.JButton" binding="generarBTN">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="250" height="40"/>
+                <preferred-size width="250" height="40"/>
+                <maximum-size width="250" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12829636"/>
+              <font name="Berlin Sans FB" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Generar Factura"/>
+            </properties>
+          </component>
+          <component id="ec2bf" class="javax.swing.JButton" binding="cancelarBTN">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="250" height="40"/>
+                <preferred-size width="250" height="40"/>
+                <maximum-size width="250" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12829636"/>
+              <font name="Berlin Sans FB" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Cancelar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="31ab1" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5011d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="IVA 12%"/>
+            </properties>
+          </component>
+          <component id="e57c3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="TOTAL A PAGAR"/>
+            </properties>
+          </component>
+          <component id="4f7cb" class="javax.swing.JLabel" binding="ivaTXT">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB" size="20" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="0.00"/>
+            </properties>
+          </component>
+          <component id="6bfff" class="javax.swing.JLabel" binding="totalTxt">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB" size="20" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="0.00"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
