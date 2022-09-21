@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+	<!-- https://cdnjs.com/libraries/font-awesome -->
+
+	<!-- https://fontawesome.com/icons -->
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+	integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	<!-- https://www.flaticon.es/ -->
+	<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1356/1356479.png" type="image/x-icon">
+
+	<title>Practice-Portfolio</title>
+
+</head>
+
+<body>
+
+	<!-- HEADER SECTION SATRTS -->
+	<header class="header">
+
+		<nav class="navbar">
+			<div class="container">
+				<div class="logo">Kevin</div>
+				<ul class="menu">
+					<li><a href="#about">Sobre mí</a></li>
+					<li><a href="#portfolio">Portafolio</a></li>
+					<li><a href="#expert">Experto</a></li>
+					<li><a href="#contact">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="showcase ">
+			<div class="container-2">
+				<div class="showcase-box">
+					<h1 class="animate__animated animate__zoomInDown">Bienvenidos a mi portafolio en línea</h1>
+					<a href="#portfolio" class="animate__bounce animate__animated animate__infinite animate__slower  btn btn-light">Portfolio</a>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<!-- HEADER SECTION ENDS -->
+
+
+
+    <!-- MAIN SECTION STARTS  -->
+	<main class="main">
+
+
+
+		<!-- ABOUT SECTION STARTS  -->
+		<section class="about container" id="about">
+			<div class="about__texts">
+				<h2 class="title">¿Quién soy?</h2>
+				<p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio exercitationem
+					accusamus laudantium aliquam, voluptatem nobis numquam, eos neque perferendis quisquam laboriosam
+					natus architecto harum, dolorem autem at cupiditate dolore consequuntur.</p>
+				<a href="#" class="btn btn-about">curriculum vitae</a>
+			</div>
+			<figure class="about__img">
+				<img src="./images/girl.svg" class="about__picture ">
+			</figure>
+		</section>
+		<!-- ABOUT SECTION ENDS  -->
+
+
+
+		<!-- PORTFOLIO SECTION STARTS  -->
+		<section class="portfolio" id="portfolio">
+			<div class="portfolio__container container">
+				
+				<h2 class="title">Mis proyectos</h2>
+
+				<div class="portfolio__cards  animate__pulse  animate__animated animate__infinite animate__slower">
+					<article class="portfolio__card">
+						<img src="./images/portfolio-1.jfif" class="portfolio__picture">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Proyecto - 1</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+
+					<article class="portfolio__card">
+						<img src="./images/portfolio-2.jfif" class="portfolio__picture">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Proyecto - 2</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+
+					<article class="portfolio__card">
+						<img src="./images/portfolio-3.jfif" class="portfolio__picture">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Proyecto - 3</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- PORTFOLIO SECTION ENDS  -->
+
+
+		<!-- LANGUAGES SECTION STARTS  -->
+		<section class="languages" id="expert">
+			
+			<div class="container">
+				<h2 class="title">Experto</h2>
+				<div class="languages__container">
+					<img src="./images/html-5.svg" class="languages__picture ">
+					<img src="./images/css-3.svg" class="languages__picture">
+					<img src="./images/javascript.svg" class="languages__picture">
+					<img src="./images/react.svg" class="languages__picture">
+				</div>
+			</div>
+
+		</section>
+		<!-- LANGUAGES SECTION ENDS  -->
+
+
+	</main>
+	<!-- MAIN SECTION ENDS  -->
+
+	<!-- CONTACT SECTION STARTS  -->
+    <section class="contacto" id="contact">
+        <form action="">
+            <fieldset>
+                <legend><h2 class="title">Contáctame</h2></legend>
+                <label for="nombre" class="form-label">Nombres: </label>
+                <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre">
+                
+                <label for="correo" class="form-label">Correo Electronico:  </label>
+                <input type="email" id="correo" class="form-input" placeholder="Escriba su correo">
+    
+                <label for="mensaje" class="form-label">Mensaje:  </label>
+                <textarea type="mensaje" id="mensaje" class="form-textarea" placeholder="Escriba su mensaje"></textarea>
+    
+                <input type="submit" class="btn-submit" value="Enviar">
+            </fieldset>
+        </form>
+        <figure class="footer__img">
+            <img src="./images/mail.svg" class="footer__picture animate__heartBeat  animate__animated animate__infinite animate__slower ">
+        </figure>
+    </section>
+	<!-- CONTACT SECTION ENDS  -->
+	
+	<!-- FOOTER SECTION STARTS  -->
+	<footer class="footer">
+		
+		<div class="footer__container container">
+			<div class="footer__texts">
+                <nav class="footer__nav">
+					<a href="#" class="footer__link">Inicio</a>
+					<a href="#about" class="footer__link">Sobre mí</a>
+					<a href="#portfolio" class="footer__link">Proyectos</a>
+				</nav>
+				<div class="footer__icons">
+					<a href="#" class="footer__icon fab fa-facebook-f"></a>
+					<a href="#" class="footer__icon fab fa-twitter"></a>
+					<a href="#" class="footer__icon fab fa-instagram"></a>
+				</div>
+			</div>
+            <p class="footer__copy">Derechos reservados &copy; Kevin</p>
+		</div>
+	</footer>
+	<!-- FOOTER SECTION STARTS  -->
+
+</body>
+
+</html>
