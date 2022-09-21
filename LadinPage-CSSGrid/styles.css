@@ -11,7 +11,7 @@
 body{
     background: hsla(0, 4%, 95%, 0.279);
     width: 100%;
-    height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +64,7 @@ body{
     -moz-box-shadow: -10px 15px 60px -22px  hsl(234, 12%, 34%);
     border-radius: 4px;
     margin: 20px;
+    width: 100%;
 }
 .seccion img{
     margin: 15px;
@@ -106,7 +107,9 @@ body{
     grid-row-end: 4;
     border-top: 4px solid hsl(212, 86%, 64%);
 }
-
+@media screen and (max-width: 750px){
+    
+}
 
 @media screen and (max-width: 750px){
     body{
