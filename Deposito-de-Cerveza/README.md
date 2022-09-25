@@ -1,3 +1,3 @@
 # Diseño_Interfaces
 
-https://appvet-veterinaria.netlify.app/
+https://lanenita.netlify.app/
