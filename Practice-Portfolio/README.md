@@ -3,7 +3,7 @@
 
 -Sitio web para la practica de HTML y CSS.
 
-[portafolio.png](https://postimg.cc/34sjT9xk)
+[![portafolio.png](https://i.postimg.cc/fyL8Yr4f/portafolio.png)](https://postimg.cc/34sjT9xk)
 
 
 <h2>Despliegue</h2>
