@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "pacientes": [
+    {
+      "nombre": "Lucas",
+      "propietario": "Kevin GAlarza",
+      "email": "kevin@gmail.com",
+      "fecha": "2022-09-09",
+      "telefono": "0981848821",
+      "sintomas": "Comelon",
+      "id": 2
+    },
+    {
+      "nombre": "Tomas",
+      "propietario": "Ariel Galarza",
+      "email": "ariel@gmail.com",
+      "fecha": "2022-09-10",
+      "telefono": "0981855562",
+      "sintomas": "Peleon\n",
+      "id": 3
+    }
+  ]
+}
