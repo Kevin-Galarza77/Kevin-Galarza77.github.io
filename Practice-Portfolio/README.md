@@ -1,8 +1,10 @@
 
 <h1>Práctica de Portafolio</h1>
+
 -Sitio web para la practica de HTML y CSS.
 
 [portafolio.png](https://postimg.cc/34sjT9xk)
+
 
 <h2>Despliegue</h2>
 
