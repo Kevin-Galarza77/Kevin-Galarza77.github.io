@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+/*STYLES OF LOGIN*/
+.contenidosss {
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.ladinpagess {
+    height: 100%;
+    background: black;
+    flex: 1;
+}
+
+.informacion {
+    flex: 1.5;
+    height: 100%;
+}
+
+.ladinpagess h1 {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.parrafo {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.inputs {
+    width: 80%;
+    height: 100px;
+}
+
+.inputs label,
+input {
+    width: 100%;
+}
+
+.inputs input {
+    height: 40px;
+    border-radius: 10px;
+    border: 1xp solid black;
+}
+
+.formulario {
+    width: 75%;
+    margin: 150px;
+    height: 350px;
+}
+
+/*STYLES OF DETALLES DEL PRODUCTO*/
+.detalles {
+    width: 350px;
+    height: 70%;
+    margin: 50px;
+}
+
+.detalles-contenido img {
+    width: 500px;
+    height: 400px;
+    margin: 50px;
+
+}
+
+.texto h4,
+.display-6 {
+    font-size: 25px;
+    margin-right: 10px;
+}

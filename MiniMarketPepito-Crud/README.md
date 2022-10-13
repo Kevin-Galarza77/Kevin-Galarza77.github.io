@@ -1,3 +1,3 @@
-# Diseño_Interfaces
+# Crud
 
-https://minimarketpepito.netlify.app/inicio
+https://minimarket-pepito.netlify.app
