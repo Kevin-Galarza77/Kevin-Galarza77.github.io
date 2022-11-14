@@ -13,12 +13,12 @@ Por defecto no existe ninguna alarma, por ende debemos agregarlas. Primero selec
 
 ## Cronómetor
 
-El cronómetro siempre se encontrara en 00:00:00 por ende se lo debera iniciar, se podrá pausar, continuar y detener en el momento que se desee.
+El cronómetro siempre se encontrara en 00:00:00. Por ende se lo debera iniciar, se podrá pausar, continuar y detener en el momento que se desee.
 
 [![3.png](https://i.postimg.cc/9Xx395C8/3.png)](https://postimg.cc/7bTQvRC0)
 
 ## Temporizador
 
-El temporizador se encontrara en 00:00:00, por lo cúal se debe configurar las horas, segundos y minutos para inicializarlo. A diferencia del cronómetro no se podrá pausar y continuar, pero si detenerlo. 
+El temporizador se encontrara en 00:00:00. Por lo cúal se debe configurar las horas, segundos y minutos para inicializarlo. A diferencia del cronómetro no se podrá pausar y continuar, pero si detenerlo. 
 
 [![4.png](https://i.postimg.cc/TYLbbDZK/4.png)](https://postimg.cc/GHR9wH3R)
