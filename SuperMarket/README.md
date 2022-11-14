@@ -1,4 +1,4 @@
-# SuperMarket
+# Super Market Pepito
 
 La presente aplicación permitirá a las persoans tener a disposición la información de los productos que tengan disponibles en su negocio. Por ende, podrán agregar, eliminar, actualizar y buscar el producto que deseen.
 
