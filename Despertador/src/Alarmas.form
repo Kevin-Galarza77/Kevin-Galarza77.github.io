@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Alarmas">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+    </properties>
+    <border type="line">
+      <color color="-65536"/>
+    </border>
+    <children>
+      <grid id="c8d41" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <background color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="ceea4" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="bd14b" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="3b5ce" class="javax.swing.JTextField" binding="hora_temp">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-16777216"/>
+                      <dragEnabled value="false"/>
+                      <font size="22" style="1"/>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="d718c" class="javax.swing.JButton" binding="aumenarHora">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7697782"/>
+                      <enabled value="true"/>
+                      <font size="22" style="1"/>
+                      <foreground color="-1"/>
+                      <hideActionText value="false"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="736b3" class="javax.swing.JButton" binding="disminuirHora">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7697782"/>
+                      <enabled value="true"/>
+                      <font size="22" style="1"/>
+                      <foreground color="-1"/>
+                      <hideActionText value="false"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="fb8eb" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8da82" class="javax.swing.JTextField" binding="minutos_temp">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-16777216"/>
+                      <dragEnabled value="false"/>
+                      <font size="22" style="1"/>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="dce0a" class="javax.swing.JButton" binding="aumentarMinutos">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7697782"/>
+                      <enabled value="true"/>
+                      <font size="22" style="1"/>
+                      <foreground color="-1"/>
+                      <hideActionText value="false"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="99256" class="javax.swing.JButton" binding="disminuirMinutos">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7697782"/>
+                      <enabled value="true"/>
+                      <font size="22" style="1"/>
+                      <foreground color="-1"/>
+                      <hideActionText value="false"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="b646c" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="40" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="30c82" class="javax.swing.JCheckBox" binding="lunesCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                  <font size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Lunes"/>
+                </properties>
+              </component>
+              <component id="5a06e" class="javax.swing.JCheckBox" binding="Miercoles">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                  <font size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Miercoles"/>
+                </properties>
+              </component>
+              <component id="106ca" class="javax.swing.JCheckBox" binding="Jueves">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                  <font size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Jueves"/>
+                </properties>
+              </component>
+              <component id="8979b" class="javax.swing.JCheckBox" binding="Viernes">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                  <font size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Viernes"/>
+                </properties>
+              </component>
+              <component id="d8dfb" class="javax.swing.JCheckBox" binding="sabado">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                  <font size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Sábado"/>
+                </properties>
+              </component>
+              <component id="15abe" class="javax.swing.JCheckBox" binding="domingo">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                  <font size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Domingo"/>
+                </properties>
+              </component>
+              <component id="85096" class="javax.swing.JCheckBox" binding="Martes">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                    <minimum-size width="150" height="40"/>
+                    <preferred-size width="150" height="40"/>
+                    <maximum-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                  <font size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Martes"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="93d14" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="cfffb" class="javax.swing.JButton" binding="empezar_temporizdor">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1050369"/>
+              <font size="20" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Agregar"/>
+            </properties>
+          </component>
+          <component id="bc8c5" class="javax.swing.JButton" binding="cancelar">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1050369"/>
+              <font size="20" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Cancelar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
