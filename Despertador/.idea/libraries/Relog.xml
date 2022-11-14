@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Relog">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Despertador_jar/Relog.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
