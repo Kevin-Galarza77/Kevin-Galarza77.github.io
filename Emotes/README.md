@@ -5,8 +5,8 @@
 - Galarza Kevin - [@KevinGal2002](https://github.com/KevinGal2002)
 - Salome Quispe - [@Salo-Quispe](https://github.com/Salo-Quispe)
 
-**Manual de Usuario**
-<br>
+<h1>Manual de Usuario</h1>
+
 -El Programa presentara un menu de 12 opciones para elejir el emoticon a usar.
 [![menu.png](https://i.postimg.cc/28Snmj1q/menu.png)](https://postimg.cc/qgWNxTX0)
 -Una vez ingresada la opcion, se dibujara el emoticon seleccionado.
