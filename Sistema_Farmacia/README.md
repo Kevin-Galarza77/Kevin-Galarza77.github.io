@@ -1,4 +1,4 @@
-# Farmacia
+# Sistema de Farmacia
 La presente aplicación permitirá a las personas según su tipo de usuario realizar las siguientes tareas:
 
 -Cajero: Generar Facturas, observar productos y buscar facturas.
