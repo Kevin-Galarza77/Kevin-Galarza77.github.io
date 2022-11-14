@@ -1,4 +1,4 @@
-# Calculadora-Cientifica
+# Calculadora Cientifica
 
 **Realizado por:**
 - Correa Joselyn - [@Gautzelin](https://github.com/Gautzelin)
