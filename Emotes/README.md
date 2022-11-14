@@ -1,14 +1,10 @@
 # Emojis
-**Integrantes**
-<br>
--Correa Joselyn
-<br>
--Galarza Kevin
-<br>
--Quispe Salomé
-<br>
-<br>
-<br>
+
+**Realizado por:**
+- Correa Joselyn - [@Gautzelin](https://github.com/Gautzelin)
+- Galarza Kevin - [@KevinGal2002](https://github.com/KevinGal2002)
+- Salome Quispe - [@Salo-Quispe](https://github.com/Salo-Quispe)
+
 **Manual de Usuario**
 <br>
 -El Programa presentara un menu de 12 opciones para elejir el emoticon a usar.
