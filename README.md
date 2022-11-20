@@ -22,3 +22,5 @@ In this section you can see all the projects and practices that I have carried o
 <hr>
 <a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/Dise%C3%B1o-de-Interfaces/Frotend-Mentor"><img src="https://i.postimg.cc/QMwp7xtJ/huddle.png" alt=""></a>
 <hr>
+<a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/Dise%C3%B1o-de-Interfaces/Card"><img src="https://i.postimg.cc/8p93vLtd/card.png" alt=""></a>
+<hr>
