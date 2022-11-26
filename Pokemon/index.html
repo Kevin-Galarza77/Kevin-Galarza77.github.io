@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <title>Pokemon</title>
+    <style>
+        img{
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container text-center d-flex flex-column alto justify-content-center ">
+
+        <div class="row my-3">
+            <h1 class="text-primary display-4 my-3">
+                Batalla Pokémon
+            </h1>
+            <p class="lead">Selecciona los pokémon para la batalla</p>
+        </div>
+
+
+        <div class="row" id="listarpokemon">
+            <section class="border border-primary  border-1 col-12 col-sm-12 col-md-6 col-lg-4 mb-2" id="pok-1">
+
+                    <img src="" alt="img-pokemon">
+                    <h4 class="text-primary">Habilidades</h4>
+                    <ol>
+                    </ol>
+                    <div class="d-block bg-primary text-white py-1 link-dark">
+                        <p class="fs-4 lead m-0 py-2"></p>
+                    </div>
+                    <button type="button" class="btn btn-primary m-3" data-bs-toggle="modal" data-bs-target="#modal-pok-1">
+                        Detalles
+                      </button>
+
+            </section>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-5 d-flex justify-content-around h-100 flex-column align-items-center">
+                    <button type="submit" class="btn btn-primary bg-gradient my-2"
+                        onclick="btnSeleccionar()">Seleccionar</button>
+                    <p class="lead fs-2 my-2">VS</p>
+            </div>
+
+            <section class="border border-primary  border-1 col-12 col-sm-12 col-md-12 col-lg-4" id="pok-2">
+                    <img src="" alt="img-pokemon">
+                    <h4 class="text-primary">Habilidades</h4>
+                    <ol>
+                    </ol>
+                    <div class="d-block bg-primary text-white py-1 link-dark">
+                        <p class="fs-4 lead m-0 py-2"></p>
+                    </div>
+                    <button type="button" class="btn btn-primary m-3" data-bs-toggle="modal" data-bs-target="#modal-pok-2">
+                        Detalles
+                      </button>
+            </section>
+        </div>
+        <div id="modals">
+            <div class="modal fade" id="modal-pok-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header border-0">
+                      <h2  class="modal-title fs-3 w-100  text-primary" id="staticBackdropLabel2">
+                
+                      </h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body py-0">
+
+                    </div>
+                    <div class="modal-footer pt-0 border-0 d-flex justify-content-center align-items-center">
+                        <button type="button" class="btn btn-primary px-5" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="modal-pok-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-3 w-100  text-primary" id="staticBackdropLabel1">
+                
+                        </h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body py-0">
+                      
+                    </div>
+                    <div class="modal-footer pt-0 border-0 d-flex justify-content-center align-items-center">
+                      <button type="button" class="btn btn-primary px-5" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+        <div class="row mt-2">
+                <h1 class="text-primary display-5 my-3">
+                    Lista de usuarios
+                </h1>
+        </div>
+
+
+        <div class="row m-2">
+            <table class="table table-hover">
+                <thead class="bg-primary text-white">
+                    <tr>
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>EMAIL</th>
+                    </tr>
+                </thead>
+                <tbody id="data" class="text-primary">
+                </tbody>
+
+            </table>
+        </div>
+
+        <footer class="row mt-3">
+            <p class="text-secondary">Todos los derechos reservados. @Kevin-Galarza77</p>
+        </footer>
+        
+    </main>
+    <script src="./js/datosUsers.js"></script>
+    <script src="./js/datosPkemon.js"></script>
+</body>
+
+</html>
