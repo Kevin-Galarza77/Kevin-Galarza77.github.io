@@ -9,3 +9,5 @@ In this section you can see all the exercises I have done to learn this programm
 - <a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/C%2B%2B/6.-PUNTEROS">POINTERS</a>
 - <a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/C%2B%2B/7.-EXAMENES">EXAMS</a>
 - <a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/C%2B%2B/8.-PROYECTO">PROJECT</a>
+
+<hr>
