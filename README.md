@@ -1,4 +1,5 @@
 # C++
+<hr>
 In this section you can see all the exercises I have done to learn this programming language.
 
 - <a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/C%2B%2B/1.-ESTRUCTURAS%20DE%20CONTROL%20I">CONTROL STRUCTURES I</a>
