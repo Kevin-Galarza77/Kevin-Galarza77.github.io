@@ -8,7 +8,7 @@ Aquí puedes ver todos los proyectos que he realizado en cada una de las diferen
 
 - <a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/Dise%C3%B1o-de-Interfaces">Diseño de Interfaces (Frontend)</a>
 
-<img src="https://i.postimg.cc/Ls2hVkJM/frontend.png" alt="Frontend">
+<p align="center"><img src="https://i.postimg.cc/Ls2hVkJM/frontend.png" alt="Frontend"></p>
 
 
 
