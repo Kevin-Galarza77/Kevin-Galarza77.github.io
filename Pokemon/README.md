@@ -1,7 +1,7 @@
 
 <h1>POKEMON</h1>
 
-Web page created for the consumption of API called PokeApi, made using HTML, Bootstraps and JavaScript.
+Página web creada para el consumo de API llamada PokeApi, realizada usando HTML, Bootstrap y JavaScript.
 <hr>
 
 [![pok.png](https://i.postimg.cc/441kwTxt/pok.png)](https://postimg.cc/9zznFKTF)
