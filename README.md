@@ -1,6 +1,6 @@
-# Portfolio
+# Portafolio
 
-In this section there is only the source code of the construction of my web portfolio.
+En esta sección solo se encuentra el código fuente de la construcción de mi portafolio web.
 
 <h2>Despliegue</h2>
 
