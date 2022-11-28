@@ -20,10 +20,10 @@ Aquí puedes ver todos los proyectos que he realizado en cada una de las diferen
 
 - <a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/C++">C++ </a>
 
-<img src="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/blob/Portfolio-gh-pages/assets/C__.a578d67b.png" alt="C++" style="height: 120px; width: 120px; background-color: white;" >
+<p align="center"><img src="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/blob/Portfolio-gh-pages/assets/C__.a578d67b.png" alt="C++" style="height: 120px; width: 120px; background-color: white;" ></p>
 
 
 - <a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/Algoritmos-y-Estructuras-de-Datos">Algoritmos y Estructuras de Datos </a>
 
-<img src="https://i.postimg.cc/htTfTD16/algoritmos.jpg" alt="Algoritmos y Estructuras de Datos" style="height: 120px; width: 120px; background-color: white;">
+<p align="center"><img src="https://i.postimg.cc/htTfTD16/algoritmos.jpg" alt="Algoritmos y Estructuras de Datos" style="height: 120px; width: 120px; background-color: white;"></p>
 
