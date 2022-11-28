@@ -1,6 +1,7 @@
-# Interface Design (Frontend)
+# Diseño de Interfaces (Frontend)
 
-In this section you can see all the projects and practices that I have carried out with the following technologies:
+En esta sección puedes ver todos los proyectos y prácticas que he realizado con las siguientes tecnologías:
+
 - HTML
 - CSS
 - JavaScript
