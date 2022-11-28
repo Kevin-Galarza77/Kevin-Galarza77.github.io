@@ -1,15 +1,4 @@
-    <style>
-      a{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-self: center;
-      }
-      h6{
-        width: 100%;
-        text-align: start;
-      }
-    </style>
+ <style></style>
 
 # Software Development
 
