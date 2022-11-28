@@ -14,7 +14,7 @@ Aquí puedes ver todos los proyectos que he realizado en cada una de las diferen
 
 - <a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/Java">Java </a>
 
-<img src="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/blob/Portfolio-gh-pages/assets/JAVA.714321be.png" alt="Java" style="height: 120px; width: 120px; background-color: white;">
+<img src="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/blob/Portfolio-gh-pages/assets/JAVA.714321be.png" alt="Java" style="height: 120px; width: 120px; background-color: white;" align="center">
 
 
 
