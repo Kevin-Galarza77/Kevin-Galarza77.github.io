@@ -1,7 +1,9 @@
-# Portfolio GitHub Pages
+# Portafolio en GitHub Pages
 
-In this section you will only find the static files for the portfolio deployment on Github Pages.
+En esta sección se encuentran los archivos estáticos para la implementación del portafolio en GitHub Pages.
 
-<h2>Deployment</h2>
+<h2>Despliegue</h2>
 
 https://kevin-galarza77.github.io/
+
+
