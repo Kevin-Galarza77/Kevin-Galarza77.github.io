@@ -18,5 +18,5 @@ Aquí puedes ver todos los proyectos que he realizado en cada una de las diferen
 
 - <a href="https://github.com/Kevin-Galarza77/Kevin-Galarza77.github.io/tree/Algoritmos-y-Estructuras-de-Datos">Algoritmos y Estructuras de Datos</a>
 
-<img src="[https://i.postimg.cc/Ls2hVkJM/frontend.png](https://i.postimg.cc/htTfTD16/algoritmos.jpg)" alt="Algoritmos y Estructuras de Datos">
+<img src="https://i.postimg.cc/htTfTD16/algoritmos.jpg" alt="Algoritmos y Estructuras de Datos">
 
